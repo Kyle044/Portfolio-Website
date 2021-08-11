@@ -1,0 +1,26 @@
+.ParentDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.ParentDiv ul {
+  list-style: none;
+  display: flex;
+}
+.ParentDiv ul li {
+  margin-right: 2rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.burger:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.ParentDiv ul li a {
+  text-decoration: none;
+  color: black;
+}
